@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weekly_horoscopes",
+  "info": {
+    "singularName": "weekly-horoscope",
+    "pluralName": "weekly-horoscopes",
+    "displayName": "weekly-horoscope"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sign": {
+      "type": "string"
+    },
+    "week": {
+      "type": "string"
+    },
+    "horoscope_data": {
+      "type": "richtext"
+    },
+    "love_relationships": {
+      "type": "richtext"
+    },
+    "carrer_work": {
+      "type": "richtext"
+    },
+    "challenges": {
+      "type": "richtext"
+    },
+    "opportunities": {
+      "type": "richtext"
+    }
+  }
+}

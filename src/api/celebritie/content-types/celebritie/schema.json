@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "celebrities",
+  "info": {
+    "singularName": "celebritie",
+    "pluralName": "celebrities",
+    "displayName": "celebritie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "birth_place": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "blocks"
+    },
+    "zodiac_sign": {
+      "type": "blocks"
+    },
+    "featured_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "is_featured": {
+      "type": "boolean"
+    }
+  }
+}
