@@ -543,7 +543,7 @@ export interface ApiWeeklyHoroscopeWeeklyHoroscope
     draftAndPublish: true;
   };
   attributes: {
-    carrer_work: Schema.Attribute.RichText;
+    career_work: Schema.Attribute.RichText;
     challenges: Schema.Attribute.RichText;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
