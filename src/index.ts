@@ -5,8 +5,8 @@ export default {
 
   bootstrap({ strapi }) {
     strapi.cron.add({
-      '20 12 * * *': async () => {
-        console.log('🌀 [CRON START] Running horoscope fetch at 12:20 PM NPT...');
+      '15 21 * * *': async () => {
+        console.log('🌀 [CRON START] Running horoscope fetch at 9:15 PM NPT...');
         try {
           await fetchDailyHoroscope(strapi);
           console.log('✅ Horoscope fetched and saved.');
